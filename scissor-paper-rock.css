@@ -1,0 +1,88 @@
+          @font-face {
+      font-family: "Font Awesome 5 Free";
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.eot); /* IE9 Compat Modes */
+      src: url(https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff2) format("woff2"), /* Super Modern Browsers */
+       url(https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff) format("woff"), /* Modern Browsers */
+       url(https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.svg#fontawesome) format("svg"); /* Legacy iOS */
+}
+
+.scissor:before {
+  content: "\f54c"; /* fa-scissors */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.paper:before {
+  content: "\f54b"; /* fa-paper-plane */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.rock:before {
+  content: "\f501"; /* fa-hand-rock */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+button{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+
+}
+.scissor {
+  background-color: lightblue;
+}
+
+.paper {
+  background-color: lightgreen;
+}
+
+.rock {
+  background-color: pink;
+}
+
+.winner {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.stat-container{
+  margin-top: 30px;
+  display: flex;
+  flex-direction:row; 
+  justify-content: space-evenly;
+
+}
+.game{
+  background-color: transparent;
+}
+body {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    align-items: center;
+}
+.game{
+  visibility: hidden;
+}
